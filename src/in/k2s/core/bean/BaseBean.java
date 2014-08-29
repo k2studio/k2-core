@@ -28,4 +28,5 @@ public abstract class BaseBean implements Bean {
 		return new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create().toJson(this); 
 	}
 	
+	
 }
